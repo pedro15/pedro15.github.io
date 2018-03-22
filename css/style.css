@@ -1,0 +1,46 @@
+.parallax-window {
+	min-height: 500px;
+    background: rgba(0, 179, 255, 0.483);
+}
+
+.nav
+{
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translate(-50%,0);
+}
+
+.banner-caption
+{
+    position: absolute;
+    text-align: center;
+    top: 200px;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%,-50%);
+}
+
+.bg-light
+{
+    background: white;
+}
+
+.navbar-light
+{
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+}
+
+.navbar-nav > .nav-item
+{
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+
+}
+
+.separator
+{
+    min-height: 4px;
+    width: 100%;
+    background: #018bee;
+}
