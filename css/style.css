@@ -1,42 +1,48 @@
-.parallax-window {
-	min-height: 500px;
-    background: rgba(0, 179, 255, 0.483);
+.parallax-window 
+{
+	min-height: 600px;
+    background: rgba(33,125,187,0.8);
 }
 
-.nav
+.navbar-light .navbar-nav .nav-link , 
+.navbar-light .navbar-nav .nav-link:hover
 {
-    position: absolute;
-    left: 50%;
-    top: 0;
-    transform: translate(-50%,0);
-}
-
-.banner-caption
-{
-    position: absolute;
-    text-align: center;
-    top: 200px;
-    left: 50%;
-    text-align: center;
-    transform: translate(-50%,-50%);
-}
-
-.bg-light
-{
-    background: white;
-}
-
-.navbar-light
-{
-    border-bottom-left-radius: 2px;
-    border-bottom-right-radius: 2px;
+    color: #005c9d;
 }
 
 .navbar-nav > .nav-item
 {
     font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
-
 }
+
+.nav-item:hover
+{
+    background: #ececec;
+    border-radius: 4px;
+}
+
+/* Banner */
+
+.banner-caption
+{
+    position: absolute;
+    top: 200px;
+    left: 50%;
+    transform: translate(-50%,0);
+    color: #fff;
+} 
+
+.banner-caption > h1
+{
+    font-size: 72pt;
+}
+
+.banner-caption > p
+{
+    font-size: 26pt;
+}
+
+/* Decorators */
 
 .separator
 {
