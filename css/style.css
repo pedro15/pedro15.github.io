@@ -1,11 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+body
+{
+    font-family: 'Lato', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6
+{
+    color: rgb(103, 103, 103);
+}
+
 .parallax-window 
 {
-	min-height: 600px;
-    background: rgba(33,125,187,0.8);
+	min-height: 400px;
+    background: transparent;
 }
 
 .navbar-light .navbar-nav .nav-link , 
-.navbar-light .navbar-nav .nav-link:hover
+.navbar-light .navbar-nav .nav-link:hover, 
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:visited
 {
     color: #005c9d;
 }
@@ -25,16 +40,15 @@
 
 .banner-caption
 {
-    position: absolute;
-    top: 200px;
-    left: 50%;
-    transform: translate(-50%,0);
-    color: #fff;
+    position: inherit;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
 } 
 
 .banner-caption > h1
 {
     font-size: 72pt;
+    font-weight: bold;
 }
 
 .banner-caption > p
@@ -49,4 +63,134 @@
     min-height: 4px;
     width: 100%;
     background: #018bee;
+}
+
+.separator-light
+{
+    min-height: 1px;
+    width: 100%;
+    background: #cbcbcb;
+    margin-top: 4px;
+}
+
+.info-element
+{
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+.info-element > h2
+{
+    text-align: center;
+}
+
+.education-element
+{
+    border: 1px solid #cccccc;
+    padding: 15px;
+    margin: 20px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.education-element > h2
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #5a5a5a;
+    font-size: 16pt;
+}
+
+.education-element > p
+{
+    font-style: italic;
+}
+
+.hability-item
+{
+    background: #0077cc;
+    border-radius: 6px;
+    color: rgb(255, 255, 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18pt;
+}
+
+.proyect-container
+{
+    background: #dfdfdf;
+    padding: 18px;
+}
+
+.card
+{
+    margin: 10px;
+}
+
+.card-img
+{
+    width: 100%;
+    height: 200px;
+    background: #404040;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    overflow: hidden;
+}
+
+#habilidades
+{
+    margin-bottom: 50px;
+}
+
+#contact-form
+{
+   /* margin-top: 25px; */
+    padding: 20px;
+    background: #0077cc;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+#contact-form .container
+{
+    padding-left: 200px;
+    padding-right: 200px;
+    min-width: 200px;
+}
+
+#contact-form h3
+{
+    color: #fff;
+}
+
+.form-control
+{
+    border-radius: 2px;
+    border: none;
+}
+
+.proyect-tag
+{
+    margin-left: 5px;
+}
+
+.proyect-tag-container
+{
+    padding: 5px;
+    padding-left: 15px;
+}
+
+.card-body
+{
+    padding: 15px;
+    padding-top: 8px;
+}
+
+.social
+{
+    float: right;
+}
+
+.social a 
+{
+    margin: 5px;
+    font-size: 16pt;
 }
