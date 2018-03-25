@@ -9,6 +9,7 @@ body
 h1,h2,h3,h4,h5,h6
 {
     color: rgb(103, 103, 103);
+
 }
 
 .parallax-window 
@@ -40,10 +41,17 @@ h1,h2,h3,h4,h5,h6
 
 .banner-caption
 {
-    position: inherit;
-    text-align: center;
+    position: absolute;
+    top: 180px;
+    left: 50%;
+    transform: translate(-50%,0);
     font-family: 'Poppins', sans-serif;
-} 
+}
+
+.banner-caption > h1, .banner-caption > h4 
+{
+    color: #fff;
+}
 
 .banner-caption > h1
 {
@@ -187,6 +195,7 @@ h1,h2,h3,h4,h5,h6
 .social
 {
     float: right;
+    right: 100%;
 }
 
 .social a 
@@ -199,4 +208,10 @@ h1,h2,h3,h4,h5,h6
 .social a:hover
 {
     color: #404040;
+}
+
+.info-light 
+{
+    text-align: center;
+    color: #6f6f6f;
 }
