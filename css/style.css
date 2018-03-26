@@ -65,18 +65,19 @@ h1,h2,h3,h4,h5,h6
 
 .banner-caption
 {
+    font-family: 'Poppins', sans-serif;
     position: absolute;
     top: 50vh;
     left: 50%;
     transform: translate(-50%,-50%);
-    font-family: 'Poppins', sans-serif;
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
 }
 
 .banner-caption > h1, .banner-caption > h4
 {
     color: #fff;
 }
-
 
 .banner-caption > h1
 {
@@ -138,7 +139,7 @@ h1,h2,h3,h4,h5,h6
 {
     margin-top: 0;
     margin-bottom: 0;
-    background: rgb(233, 237, 240);
+    background: rgb(238, 240, 240);
     padding: 22px;
 }
 
@@ -298,7 +299,6 @@ textarea
 .form-control::-moz-placeholder { color: #fafafa8b; }  /* Mozilla Firefox 19+ */
 .form-control:-ms-input-placeholder { color: #fafafa8b; }  /* Internet Explorer 10-11 */
 .form-control::-ms-input-placeholder { color: #fafafa8b; }  /* Microsoft Edge */
-
 
 .btn-send
 {
