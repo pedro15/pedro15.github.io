@@ -202,7 +202,6 @@ h1,h2,h3,h4,h5,h6
     padding: 18px;
 }
 
-
 .proyect-tag
 {
     margin-left: 5px;
@@ -213,7 +212,6 @@ h1,h2,h3,h4,h5,h6
     padding: 5px;
     padding-left: 15px;
 }
-
 .card
 {
     margin: 10px;
@@ -284,9 +282,8 @@ h1,h2,h3,h4,h5,h6
 
 #contact-form .container
 {
-    padding-left: 200px;
-    padding-right: 200px;
     min-width: 200px;
+    max-width: 600px;
 }
 
 #contact-form h3
