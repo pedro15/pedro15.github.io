@@ -33,6 +33,13 @@ h1,h2,h3,h4,h5,h6
     margin: 0 auto;
 }
 
+.btn-dark
+{
+    background-color: black;
+    border-radius: 25px;
+    padding: 10px;
+}
+
 /* Nav */
 
 .navbar-light .navbar-nav .nav-link , 
@@ -141,8 +148,8 @@ h1,h2,h3,h4,h5,h6
 
 .info-element
 {
-    margin-bottom: 200px !important;
-    margin-top: 200px !important;
+    margin-bottom: 100px !important;
+    margin-top: 100px !important;
 }
 
 .info-element > h2 , .info-header
@@ -168,6 +175,8 @@ h1,h2,h3,h4,h5,h6
     margin-bottom: 0;
     background: rgb(250, 250, 250);
     padding: 22px;
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
 
 /* Education */
@@ -192,6 +201,7 @@ h1,h2,h3,h4,h5,h6
 .education-element > p
 {
     font-style: italic;
+    text-align: center;
 }
 
 /* Hability */
@@ -217,15 +227,15 @@ h1,h2,h3,h4,h5,h6
 
 .skill-item
 {
-    width: 50%;
+    width: 70%;
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 150px auto;
+    margin: 100px auto;
     color: #fff;
 
-    font-size: 24pt;
+    font-size: 150%;
 }
 
 .skill-item::before
@@ -261,7 +271,7 @@ h1,h2,h3,h4,h5,h6
 
 .skill-item > h6
 {
-    margin-top:  120%;
+    margin-top:  130%;
     position:  absolute;
 }
 
@@ -411,6 +421,3 @@ textarea
 {
     color: #404040;
 }
-
-
-
