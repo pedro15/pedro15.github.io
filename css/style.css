@@ -28,9 +28,10 @@ h1,h2,h3,h4,h5,h6
 }
 
 
-.col-centered{
+.col-centered
+{
     float: none;
-    margin: 0 auto;
+    margin:  0 auto;
 }
 
 .btn-dark
@@ -214,8 +215,8 @@ h1,h2,h3,h4,h5,h6
 
 .skill-image
 {
-    width: 80%;
-    position: relative;
+    width: 65%;
+    text-align: center;
 }
 
 .skill-image-container
@@ -227,12 +228,12 @@ h1,h2,h3,h4,h5,h6
 
 .skill-item
 {
-    width: 70%;
+    width: 60%;
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 100px auto;
+    margin: 80px auto 20px;
     color: #fff;
 
     font-size: 150%;
@@ -269,13 +270,23 @@ h1,h2,h3,h4,h5,h6
     background: #ffd000;
 }
 
-.skill-item > h6
+.skill-item-title
 {
-    margin-top:  130%;
-    position:  absolute;
+    position: relative;
+    margin-top: 25px;
 }
 
 /* Proyect */
+
+.proyect-category
+{
+    background: black;
+    padding: 8px;
+    color: #fff;
+    border-radius: 20px;
+    margin-left: 40%;
+    margin-right: 40%;
+}
 
 .proyect-container
 {
