@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Lato');
 @import url('https://fonts.googleapis.com/css?family=Poppins');
-@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans+Condensed');
 @import url('https://fonts.googleapis.com/css?family=Dosis');
+@import url('https://fonts.googleapis.com/css?family=Yantramanav:100');
 
 body
 {
@@ -11,12 +11,26 @@ body
 h1,h2,h3,h4,h5,h6
 {
     color: rgb(103, 103, 103);
+    text-align: center;
 }
 
 .parallax-window 
 {
 	min-height: 100vh;
     background: transparent;
+}
+
+.tooltip-inner
+{
+    font-size: 12pt;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+
+.col-centered{
+    float: none;
+    margin: 0 auto;
 }
 
 /* Nav */
@@ -114,7 +128,7 @@ h1,h2,h3,h4,h5,h6
 .separator
 {
     width: 100%;
-    border-bottom: 3px solid #00537F;
+    border-bottom: 2px solid #00537F;
 }
 
 .separator-light
@@ -127,8 +141,8 @@ h1,h2,h3,h4,h5,h6
 
 .info-element
 {
-    margin-bottom: 120px !important;
-    margin-top: 120px !important;
+    margin-bottom: 200px !important;
+    margin-top: 200px !important;
 }
 
 .info-element > h2 , .info-header
@@ -152,7 +166,7 @@ h1,h2,h3,h4,h5,h6
 {
     margin-top: 0;
     margin-bottom: 0;
-    background: rgb(238, 240, 240);
+    background: rgb(250, 250, 250);
     padding: 22px;
 }
 
@@ -160,7 +174,9 @@ h1,h2,h3,h4,h5,h6
 
 .education-element
 {
+ 
     border: 1px solid #cccccc;
+    border-radius: 20px;
     padding: 15px;
     margin: 20px;
     margin-left: 20%;
@@ -185,13 +201,68 @@ h1,h2,h3,h4,h5,h6
     margin-bottom: 50px;
 }
 
-.hability-item
+
+.skill-image
 {
-    background: #0077cc;
-    border-radius: 2px;
-    color: rgb(255, 255, 255);
-    font-family: 'IBM Plex Sans Condensed', sans-serif;
-    font-size: 18pt;
+    width: 80%;
+    position: relative;
+}
+
+.skill-image-container
+{
+    background: #cbcbcb;
+    padding: 20%;
+    border-radius: 50%;
+}
+
+.skill-item
+{
+    width: 50%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 150px auto;
+    color: #fff;
+
+    font-size: 24pt;
+}
+
+.skill-item::before
+{
+    border-radius: 50%;
+    width: 100%;
+    padding-bottom: 100%;
+    background: #005c9d;
+    content: "";
+    position: absolute;
+    z-index: -1;
+}
+
+.skill-item-white
+{
+    color: #404040;
+}
+
+.skill-item-white::before
+{
+    background: #f4f4f4;
+}
+
+.skill-item-yellow
+{
+    color: #404040;
+}
+
+.skill-item-yellow::before
+{
+    background: #ffd000;
+}
+
+.skill-item > h6
+{
+    margin-top:  120%;
+    position:  absolute;
 }
 
 /* Proyect */
@@ -340,4 +411,6 @@ textarea
 {
     color: #404040;
 }
+
+
 

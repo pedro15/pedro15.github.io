@@ -28,7 +28,11 @@ $('a[href*="#"]')
   elm.mouseenter(function(event){
     $(event.currentTarget).transition({scale:1.2},300);
   });
-
+  
   elm.mouseleave(function(event){
     $(event.currentTarget).transition({scale:1.0},300);
   });
+
+  $(function () {
+    $('[data-toggle="tooltip"]').tooltip()
+  })
