@@ -1,8 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo&display=swap');
 
 :root
 {
-    --background: #171717;
+    --background: #24292e;
+    --semidark: #1d2125;
+    --dark: #121517;
 }
 
 body
@@ -16,6 +19,11 @@ h1,h2
     font-family: 'Lato', sans-serif;
 }
 
+.btn-rounded
+{
+    border-radius: 16px;
+}
+
 .btn-outline-dark
 {
     color: white;
@@ -24,7 +32,7 @@ h1,h2
 
 .btn-outline-dark:hover
 {
-    background-color: black;
+    background-color: var(--dark);
     border: 1px solid white;
 }
 
@@ -42,29 +50,65 @@ h1,h2
 .pag-header > h3
 {
     font-size: 30px;
+    font-family: 'Cairo', sans-serif;
+}
+
+.nav-link 
+{
+    margin-left: 10px;
 }
 
 .nav-link:hover
 {
-    font-weight: 600;
+  font-weight: 600;
 }
 
-.profile-pic
+.nav-link:focus,.nav-link:active
 {
-    border: 8px solid #090909;
+    outline: 0;
+    border: none;
+    -moz-outline-style: none;
+}
+
+.card-body-big
+{
+    min-height: 85%;
+}
+
+.card-img
+{
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 10px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.card-img > img
+{
+    position: relative;
+    height: 300px;
+   
+}
+
+.profile-pic > img
+{
     border-radius: 100%;
     width: 300px;
+    height: 300px;
+    size: initial;
 }
 
 article
 {
     padding-top: 60px;
-    margin-top: 40px;
+    margin-top: 60px;
 }
 
 .bg-dark
 {
-    background-color: #2d2d2d !important;
+    background-color: var(--semidark) !important;
 }
 
 .project-card
@@ -72,14 +116,36 @@ article
     margin-top: 50px;
 }
 
+.card-title
+{
+    font-weight: 600;
+}
+
+strong
+{
+    font-size: 14pt;
+}
+
+.btn-dark
+{
+    background-color: var(--dark);
+    border: 2px solid white;
+}
+
+.btn-dark:hover,.btn-dark:focus
+{
+    border: 2px solid white;
+    outline: none;
+}
+
 .btn-send
 {
-     min-width : 200px;
+    width: 40%;
 }
 
 .form-control, .form-control:hover,.form-control:active, .form-control:focus
 {
-    background-color: #2d2d2d;
+    background-color: var(--semidark);
     color: white;
 }
 
@@ -103,15 +169,27 @@ article
     color: white;
 }
 
-#contact-form {
+#contact-form 
+{
     padding: 20px;
     text-align: center;
     margin-bottom: 15px;
 }
 
-#contact-form .container {
+/*#contact-form .container {
     min-width: 200px;
     max-width: 600px;
+}*/
+
+.form-control {
+    border: 1px solid white;
+    border-radius: 0;
+}
+
+.form-control:focus, .form-control:active
+{
+    border: 1px solid white;
+    box-shadow: none;
 }
 
 textarea
