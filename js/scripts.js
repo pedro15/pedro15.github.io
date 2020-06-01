@@ -34,11 +34,9 @@ $('a[href*="#"]')
         </div>
       </div>
       <div class="col">
-        <div class="container card-body-big">
+        <div class="container card-body card-body-big">
           <h3 class="card-title">${title}</h3>
-          <div class = "container-fluid">
             ${description}
-          </div>
         </div>
         <div class="container-fluid">
             <a href="${project_url}" target="_blank" class="btn btn-dark float-right">Ver Proyecto <i class="fa fa-arrow-right"></i></a>
