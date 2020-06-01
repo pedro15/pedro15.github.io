@@ -24,15 +24,47 @@ $('a[href*="#"]')
     }
   });
 
-  var elm = $('.card-img').children('img');
-  elm.mouseenter(function(event){
-    $(event.currentTarget).transition({scale:1.2},300);
-  });
+  const project_item = ({image,title,description,project_url}) => `
+  <div class="card text-white bg-dark mb-3 project-card">          
+  <div class="card-body">
+    <div class="row">
+      <div class="col-auto">
+        <div class="card-img">
+          <img src="${image}" alt="image">
+        </div>
+      </div>
+      <div class="col">
+        <div class="container card-body-big">
+          <h3 class="card-title">${title}</h3>
+          <div class = "container-fluid">
+            ${description}
+          </div>
+        </div>
+        <div class="container-fluid">
+            <a href="${project_url}" target="_blank" class="btn btn-dark float-right">Ver Proyecto <i class="fa fa-arrow-right"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  `;
   
-  elm.mouseleave(function(event){
-    $(event.currentTarget).transition({scale:1.0},300);
-  });
+  $(document).ready(function(){
+     $.getJSON("./projects.json",function(projects)
+     {
+          var profesional = projects["profesional-projects"];  
+          $('#pro-projects-container').html(profesional.map(project_item).join(''));
 
-  $(function () {
-    $('[data-toggle="tooltip"]').tooltip()
-  })
+          var personal = projects["personal-projects"];
+          $('#per-projects-container').html(personal.map(project_item).join(''));
+
+          var elm = $('.project-card');
+          elm.mouseenter(function(event){
+            $(event.currentTarget).find('img').transition({scale:1.2},400);
+          });
+          
+          elm.mouseleave(function(event){
+            $(event.currentTarget).find('img').transition({scale:1.0},400);
+          });
+     });
+  });
