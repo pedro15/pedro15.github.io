@@ -2,7 +2,7 @@
     "profesional-projects":
     [
         {
-            "image" : "./img/Proyects/project-fx3.png",
+            "image" : "img/projects/fx3.png",
             "title" : "FX3 Fists for fighting",
             "description": "<p class=\"card-text\">FX3 Fists for fighting es un juego de lucha en tercera persona donde puedes jugar con gran variedad de personajes a escoger y distintos escenarios seleccionados de forma aleatoria.</p> <h5>Mi colaboración:</h5> <ul> <li>- Refactorizar y programar el videojuego</li><li>- Implementación de una inteligencia artificial mejorada utilizando Apex Utility AI</li><li>- Implementación de Publicidad con admob</li><li>- Implementación de cuentas de usuario y guardado en la nube utilizando Firebase</li></ul>",
             "project_url" : "https://play.google.com/store/apps/details?id=com.flynetstudios.fx3"
@@ -11,7 +11,7 @@
     "personal-projects":
     [
         {
-            "image" : "./img/Proyects/project-MoonBehavior.jpg",
+            "image" : "img/projects/moonbehavior.jpg",
             "title" : "MoonBehavior",
             "description" : "<p class=\"card-text\">MoonBehavior es una herramienta para la creación de árboles de comportamiento (Behavior Trees) mediante un editor por nodos.</p>",
             "project_url" : "https://git.io/Jf6r8"
@@ -23,10 +23,10 @@
             "project_url" : "https://git.io/vx3FD"
         },
         {
-            "image" : "./img/Proyects/p-udialogs.png",
+            "image" : "img/projects/udialogs.png",
             "title" : "UDialogs",
             "description" : "<p class=\"card-text\">UDialogs es una herramienta para crear ventanas de dialogo interactivas. Cuenta con opciones múltiples (como botones e iconos), ademas de eventos que permite tener mayor control.</p>",
-            "project_url" : "https://github.com/pedro15/UDialogs"
+            "project_url" : "https://git.io/JfXdc"
         }
     ]
 }
