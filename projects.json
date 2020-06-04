@@ -25,7 +25,7 @@
         {
             "image" : "./img/Proyects/p-udialogs.png",
             "title" : "UDialogs",
-            "description" : "<p class=\"card-text\"> UDialogs es una herramienta para crear ventanas de dialogo interactivas. Cuenta con opciones multiples (como botones e inconos ), ademas de eventos que permite tener mayor control.</p>",
+            "description" : "<p class=\"card-text\">UDialogs es una herramienta para crear ventanas de dialogo interactivas. Cuenta con opciones múltiples (como botones e iconos), ademas de eventos que permite tener mayor control.</p>",
             "project_url" : "https://github.com/pedro15/UDialogs"
         }
     ]
