@@ -25,7 +25,7 @@
         {
             "image" : "./img/Proyects/p-udialogs.png",
             "title" : "UDialogs",
-            "description" : "Herramienta de ventanas de dialogo con opciones personalízales (Como iconos, botones) para mostrarse en aplicaciones y juegos creados con Unity",
+            "description" : "<p class=\"card-text\"> UDialogs es una herramienta para crear ventanas de dialogo interactivas. Cuenta con opciones multiples (como botones e inconos ), ademas de eventos que permite tener mayor control.</p>",
             "project_url" : "https://github.com/pedro15/UDialogs"
         }
     ]
