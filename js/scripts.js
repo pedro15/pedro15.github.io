@@ -28,7 +28,7 @@ $('a[href*="#"]')
   <div class="card text-white bg-dark mb-3 project-card">          
   <div class="card-body">
     <div class="row">
-      <div class="col-auto">
+      <div class="col-sm-10 col-md-5 col-lg-4">
         <div class="card-img">
           <img src="${image}" alt="image">
         </div>

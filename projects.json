@@ -21,6 +21,12 @@
             "title" : "GoRecycler",
             "description" : "<p class=\"card-text\">GoRecycler es una herramienta de Object Pooling para reciclar entidades, utilizada para optimización de rendimiento</p>",
             "project_url" : "https://git.io/vx3FD"
+        },
+        {
+            "image" : "./img/Proyects/p-udialogs.png",
+            "title" : "UDialogs",
+            "description" : "Herramienta de ventanas de dialogo con opciones personalízales (Como iconos, botones) para mostrarse en aplicaciones y juegos creados con Unity",
+            "project_url" : "https://github.com/pedro15/UDialogs"
         }
     ]
 }

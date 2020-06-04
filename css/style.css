@@ -51,7 +51,7 @@ a:focus,a:active
 
 .btn-rounded
 {
-    border-radius: 16px;
+    border-radius: 25px;
 }
 
 .btn-outline-dark,.btn-outline-dark:focus,.btn-outline-dark:active
@@ -68,7 +68,7 @@ a:focus,a:active
 
 .btn-send
 {
-    width: 40%;
+    width: 60%;
 }
 
 .bg-dark
@@ -109,13 +109,13 @@ a:focus,a:active
 
 .pag-header > h1
 {
-    font-size: 100px;
+    font-size: 80pt;
     
 }
 
 .pag-header > h3
 {
-    font-size: 30px;
+    font-size: 26pt;
     font-family: 'Cairo', sans-serif;
 }
 
